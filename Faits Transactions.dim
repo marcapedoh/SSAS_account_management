@@ -1,0 +1,268 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="eec024cf-23ce-4e10-9430-63e94f2a7321" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Faits Transactions</ID>
+  <Name>Faits Transactions</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2509" scrolltop="-1005" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8467" y="6477" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Faits_Transactions" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3408" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000500d000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Faits_Transactions" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2509</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1005</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e6e709ad-e8e0-47c0-a48f-82c1d2770b29">
+    <DataSourceViewID>Account Manager Datawarehouse</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="def9bee4-6b8c-47b8-898d-2d660376f33c">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="08862d8b-55d7-47f9-842a-aa35141ed28b">
+      <ID>Id Transaction</ID>
+      <Name>Id Transaction</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba9dc2b0-a9fe-4256-b19a-0221211868df">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1e29c2a4-f35b-44cf-9846-0972124cc11d">
+            <TableID>dbo_Faits_Transactions</TableID>
+            <ColumnID>id_transaction</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6f8b9119-35a2-4b3f-a416-1e460b231576">
+          <AttributeID>Date Key</AttributeID>
+          <Name>Date Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5134a477-b3ee-4e68-baa3-8028789f75df">
+          <AttributeID>Id Membre</AttributeID>
+          <Name>Id Membre</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3916efc1-5f2c-4a77-99a5-237d7dcb6b61">
+          <AttributeID>Id Compte</AttributeID>
+          <Name>Id Compte</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0578262f-d95b-4f6d-b3a7-e5ffc50802ea">
+          <AttributeID>Id Mouvement</AttributeID>
+          <Name>Id Mouvement</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b6d4286f-e3bb-4cdc-a5c3-c38b77918ee7">
+          <AttributeID>Montant</AttributeID>
+          <Name>Montant</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="603866c1-df3a-4f3b-83a7-7e59d4a145a7">
+          <AttributeID>Type Transaction</AttributeID>
+          <Name>Type Transaction</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ee53f9ab-fc49-4216-9c4b-d6057f875d5b">
+          <AttributeID>Raison</AttributeID>
+          <Name>Raison</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a3df4036-6774-49ac-a211-676385824d8f">
+      <ID>Date Key</ID>
+      <Name>Date Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="31bf0771-50bb-4aad-a0cf-c2f18748aa17">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f8f0fe48-7b26-4209-b497-a69ef514df52">
+            <TableID>dbo_Faits_Transactions</TableID>
+            <ColumnID>DateKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="03beb9dd-11ab-482d-a7b4-3dd488bfe7df">
+      <ID>Id Membre</ID>
+      <Name>Id Membre</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a39e6c73-1dcf-4ca0-b8b3-41f926ab0c48">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6cf38529-6987-472f-a5e3-433a94baa098">
+            <TableID>dbo_Faits_Transactions</TableID>
+            <ColumnID>id_membre</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0e01a2ab-cc9e-430e-87d6-23f9c6df6f6c">
+      <ID>Id Compte</ID>
+      <Name>Id Compte</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="53f9118d-687a-4f46-ae69-c60b4b1faebf">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4ffe2c7f-e58a-43ce-a8b4-bd9d926d97dc">
+            <TableID>dbo_Faits_Transactions</TableID>
+            <ColumnID>id_compte</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8d24f9c0-ca8a-4881-baa4-f0a699950a43">
+      <ID>Id Mouvement</ID>
+      <Name>Id Mouvement</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5f1820eb-9747-4150-8ee9-41d281ef8384">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b9851cc2-cd8f-4893-9a92-d696b0f7c1d3">
+            <TableID>dbo_Faits_Transactions</TableID>
+            <ColumnID>id_mouvement</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3e4e1f2f-9c65-4e25-b673-27b63ad1dba9">
+      <ID>Montant</ID>
+      <Name>Montant</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="47207752-2250-4ac3-863d-c5f5801216f3">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bd00f8a9-997d-4c1f-9dae-acabd5e42206">
+            <TableID>dbo_Faits_Transactions</TableID>
+            <ColumnID>montant</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7404b3b4-4449-44e8-b1ff-36bb556c409e">
+      <ID>Type Transaction</ID>
+      <Name>Type Transaction</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5bd80376-6145-41f7-b918-a6704ab9428b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c1f1752-455d-4be2-a806-efbb673310fa">
+            <TableID>dbo_Faits_Transactions</TableID>
+            <ColumnID>typeTransaction</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d0c17696-9a9a-48cd-a5aa-688b6ae10977">
+      <ID>Raison</ID>
+      <Name>Raison</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4ad4a7c6-bcc2-4b0e-90bd-95ff7b639c89">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c4208bb3-5dd0-4200-9745-e6e9c7aa7d37">
+            <TableID>dbo_Faits_Transactions</TableID>
+            <ColumnID>raison</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="4f59858e-23e5-47ad-9530-033d8c3bc327">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="f0eb79bc-0925-49d2-9070-c1b78e4280bf">
+          <ID>Montant</ID>
+          <Name>Montant</Name>
+          <SourceAttributeID>Montant</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="6a583e99-12c4-40ed-8425-b96efd02eac0">
+          <ID>Raison</ID>
+          <Name>Raison</Name>
+          <SourceAttributeID>Raison</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7ea9c7ca-f985-4c2d-b1ec-e8245c0e6a46">
+          <ID>Type Transaction</ID>
+          <Name>Type Transaction</Name>
+          <SourceAttributeID>Type Transaction</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

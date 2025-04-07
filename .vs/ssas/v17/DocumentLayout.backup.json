@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adral\\OneDrive\\Documents\\ETL_project\\ssas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|ssas.dwproj|C:\\Users\\adral\\OneDrive\\Documents\\ETL_project\\ssas\\Account Manager Datawarehouse.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|ssas.dwproj|solutionrelative:Account Manager Datawarehouse.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Account Manager Datawarehouse.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\adral\\OneDrive\\Documents\\ETL_project\\ssas\\Account Manager Datawarehouse.cube",
+              "RelativeDocumentMoniker": "Account Manager Datawarehouse.cube",
+              "ToolTip": "C:\\Users\\adral\\OneDrive\\Documents\\ETL_project\\ssas\\Account Manager Datawarehouse.cube [Design]",
+              "RelativeToolTip": "Account Manager Datawarehouse.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-06T13:52:54.8Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

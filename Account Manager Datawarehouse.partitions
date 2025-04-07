@@ -1,0 +1,105 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="20e8d562-e530-4969-af48-4ad9941fceaa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Account Manager Datawarehouse</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Faits Transactions</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="0ccd0b40-e972-41a5-91f5-51540e2f7e73">
+          <ID>Faits Transactions</ID>
+          <Name>Faits Transactions</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a36e82e2-ac2c-459b-abc3-47cd822e0079">
+            <DataSourceViewID>Account Manager Datawarehouse</DataSourceViewID>
+            <TableID>dbo_Faits_Transactions</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Membre</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2daa9d42-1d2d-4f1b-a361-038c8c431d20">
+          <ID>Dim Membre</ID>
+          <Name>Dim Membre</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ba39ac5f-9e97-4d46-a9f5-6380e0394c06">
+            <DataSourceViewID>Account Manager Datawarehouse</DataSourceViewID>
+            <TableID>dbo_Dim_Membre</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Temps</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1ab6d7ad-e023-44af-91af-72ef15abaafd">
+          <ID>Dim Temps</ID>
+          <Name>Dim Temps</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3b067b28-859e-44b4-97eb-f4b54445af49">
+            <DataSourceViewID>Account Manager Datawarehouse</DataSourceViewID>
+            <TableID>dbo_Dim_Temps</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Compte</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="52a3a8ec-61b6-491c-8617-a239edcc6c22">
+          <ID>Dim Compte</ID>
+          <Name>Dim Compte</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a82fee0c-aac0-42de-a60a-f1f8930304a9">
+            <DataSourceViewID>Account Manager Datawarehouse</DataSourceViewID>
+            <TableID>dbo_Dim_Compte</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Mouvement</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="f4ea53b7-0908-4f8d-b12c-6088649d5290">
+          <ID>Dim Mouvement</ID>
+          <Name>Dim Mouvement</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6c22949c-3fba-445c-a891-e2142033d7d3">
+            <DataSourceViewID>Account Manager Datawarehouse</DataSourceViewID>
+            <TableID>dbo_Dim_Mouvement</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

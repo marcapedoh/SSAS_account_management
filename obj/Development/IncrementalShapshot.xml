@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ssas</Database>
+    <Server>MARC_APEDOH\MSSQLSERVER9819</Server>
+    <ConnectionString>Data Source=MARC_APEDOH\MSSQLSERVER9819;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>3rb5911CmXaesZrKxvKXh9vMuGo=06/04/2025 15:26:1606/04/2025 15:05:19</TimeStamp>
+        <ID>
+          <String>Account Manager Datawarehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>qbUesctwl8Rjq61KMiXJfWIxJr8=06/04/2025 15:08:4406/04/2025 15:05:41</TimeStamp>
+        <ID>
+          <String>Account Manager Datawarehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YY86rRMZm2dyJy0nBpeakTqEtQs=06/04/2025 15:06:1406/04/2025 15:06:14</TimeStamp>
+        <ID>
+          <String>Dim Temps</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>m7AErrVwG+QjHgjQwaOxnrAARw0=06/04/2025 15:06:1406/04/2025 15:06:14</TimeStamp>
+        <ID>
+          <String>Dim Membre</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hXMQbEr7O64bkcTGHGauXvQ1bb0=06/04/2025 15:06:1406/04/2025 15:06:14</TimeStamp>
+        <ID>
+          <String>Dim Compte</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>J0yrCUtFj8G8k/NFo9hLDPgjBUk=06/04/2025 15:06:1406/04/2025 15:06:14</TimeStamp>
+        <ID>
+          <String>Dim Mouvement</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EN/rQar1s06e9hA2Ptt5MPtOaok=06/04/2025 15:29:4206/04/2025 15:06:14</TimeStamp>
+        <ID>
+          <String>Faits Transactions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>3PzESg8vdrTKRfmuTKa0vT6G6kY=06/04/2025 15:11:5206/04/2025 15:06:14/fCtEN2sqaSGfmPYfph/r74vIoY=06/04/2025 15:06:1406/04/2025 15:06:14</TimeStamp>
+        <ID>
+          <String>Account Manager Datawarehouse</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>YMzDBeLgJnTJcCvgqX0QKclf698=06/04/2025 00:32:0306/04/2025 00:32:03</TimeStamp>
+      <ID>
+        <String>ssas</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>false</ProcessingComplete>
+  <LastDeployed>2025-04-06T13:58:43.206667Z</LastDeployed>
+</DeploymentSnapshot>
